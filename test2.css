@@ -1,0 +1,114 @@
+html {
+  font-size: 16px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.slider {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.slider__text {
+  z-index: 10;
+  font-size: 80px;
+  line-height: 88px;
+  text-transform: uppercase;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  color: #fff;
+  font-weight: 700;
+}
+
+.slider__text-line {
+  overflow: hidden;
+}
+
+.slider__inner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.slider__nav {
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 10;
+}
+
+.slider__arrow {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.slider canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.slide {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 100px;
+}
+
+.slide__img {
+  position: relative;
+  width: 20vw;
+  height: 50vh;
+  padding: 0;
+  margin: 0;
+  min-width: 12.5rem;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+}
+
+.slide__img img {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=test2.css.map */
